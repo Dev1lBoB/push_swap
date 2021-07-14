@@ -26,7 +26,10 @@ After recieving EOF it stops and then displays "OK" if the stack A is sorted and
 Otherwise it displays "KO".
 
 Bonus part of this project was to make a visualisation of the sorting process.
+
 I used minilibix OpenGL library to draw the current statement of both stacks in additional thread after every instruction recieved.
+
+To compile the program run command "make" in the root directory. To compile bonus part run "make bonus".
 <img width="1198" alt="Screen Shot 2021-07-13 at 7 00 55 PM" src="https://user-images.githubusercontent.com/74947297/125485732-6a2be518-b915-475a-898d-1e3c36af79c6.png">
 <img width="1201" alt="Screen Shot 2021-07-13 at 6 59 37 PM" src="https://user-images.githubusercontent.com/74947297/125485589-9615ecf2-dfd4-4e59-8ad0-96794b1d68d9.png">
 
